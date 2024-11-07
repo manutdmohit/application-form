@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
-import { cn } from '@/lib/utils';
+import { cn } from '../lib/utils';
 import './globals.css';
 
-import { LightDarkToggle } from '@/components/ui/light-dark-toggle';
+import { LightDarkToggle } from '../components/ui/light-dark-toggle';
 
 const poppins = Poppins({
   subsets: ['latin'],
